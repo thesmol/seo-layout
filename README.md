@@ -46,12 +46,3 @@ npm run preview
 
     Добавить в "шапку" сложный логотип (выбрать самостоятельно или запросить у преподавателя); добавить пункты меню; добавить в контентную колонку осмысленный текст, соответствующий логотипу; привести код к seo-оптимизированному виду (семантические теги, заголовки title и h1, тег strong)
 ```
-
-## Публикация через SSH
-
-```sh
-git remote set-url origin git@github.com:thesmol/seo-layout.git
-git push origin main:main main:gh-pages
-```
-
-GitHub Pages публикует ветку `gh-pages`.
